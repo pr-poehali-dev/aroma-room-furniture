@@ -165,27 +165,21 @@ const Contacts = () => {
             </div>
 
             <div className="bg-card border border-border rounded-3xl p-8">
-              <h4 className="text-xl font-bold mb-4">Мы в соцсетях</h4>
-              <div className="flex gap-4">
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
-                >
-                  <Icon name="Instagram" size={20} className="text-primary" fallback="Share2" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
-                >
-                  <Icon name="Facebook" size={20} className="text-primary" fallback="Share2" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
-                >
-                  <Icon name="Phone" size={20} className="text-primary" />
-                </a>
-              </div>
+              <h4 className="text-xl font-bold mb-4">Мы в Telegram</h4>
+              <a 
+                href="https://t.me/ARomaRoom_61" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 bg-primary/5 rounded-xl hover:bg-primary/10 transition-colors group"
+              >
+                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                  <Icon name="MessageCircle" size={24} className="text-primary" />
+                </div>
+                <div>
+                  <div className="font-semibold text-lg">@ARomaRoom_61</div>
+                  <div className="text-sm text-muted-foreground">Напишите нам в Telegram</div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
