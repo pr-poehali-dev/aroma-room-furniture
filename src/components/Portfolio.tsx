@@ -34,10 +34,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      image: 'https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/5e941814-d497-4b03-8723-2074e00be134.jpg',
-      title: 'Модульная кухня',
+      images: [
+        'https://cdn.poehali.dev/files/2026-01-11 20.38.30.jpg',
+        'https://cdn.poehali.dev/files/2026-01-11 20.39.55.jpg',
+      ],
+      title: 'Модульная кухня премиум',
       category: 'kitchen',
-      description: 'Функциональная кухня с немецкой фурнитурой Blum',
+      description: 'Минималистичный дизайн с чёрными акцентами и LED-подсветкой',
     },
     {
       id: 4,
