@@ -9,17 +9,20 @@ const Portfolio = () => {
   const categories = [
     { id: 'all', label: 'Все проекты' },
     { id: 'kitchen', label: 'Кухни' },
-    { id: 'wardrobe', label: 'Шкафы' },
+    { id: 'wardrobe', label: 'Шкафы-купе' },
     { id: 'table', label: 'Столы' },
   ];
 
   const projects = [
     {
       id: 1,
-      image: 'https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/34b9dd6a-6437-4872-afda-fd266927af8a.jpg',
-      title: 'Встроенный шкаф-купе',
+      images: [
+        'https://cdn.poehali.dev/files/2026-01-12 13.08.15.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.08.34.jpg',
+      ],
+      title: 'Шкаф-купе',
       category: 'wardrobe',
-      description: 'Премиум система хранения с итальянской фурнитурой',
+      description: 'Элегантный шкаф-купе с рифлёными фасадами и зеркальными дверцами',
     },
     {
       id: 2,
@@ -44,10 +47,10 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image: 'https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/34b9dd6a-6437-4872-afda-fd266927af8a.jpg',
-      title: 'Гардеробная система',
+      image: 'https://cdn.poehali.dev/files/2026-01-12 13.08.34.jpg',
+      title: 'Классический шкаф-купе',
       category: 'wardrobe',
-      description: 'Индивидуальное решение для просторной гардеробной',
+      description: 'Изысканная классика в светлых тонах с зеркалами и удобными полками',
     },
     {
       id: 5,
