@@ -59,10 +59,14 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      image: 'https://cdn.poehali.dev/files/2026-01-12 13.33.26.jpg',
-      title: 'Компактная прихожая',
+      images: [
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.20.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.13.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.26.jpg',
+      ],
+      title: 'Прихожая на заказ',
       category: 'hallway',
-      description: 'Угловой шкаф с зеркальными дверцами и вместительными отделениями',
+      description: 'Современная система хранения с зеркалами и функциональными модулями',
     },
     {
       id: 6,
