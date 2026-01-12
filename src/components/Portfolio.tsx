@@ -11,7 +11,7 @@ const Portfolio = () => {
     { id: 'kitchen', label: 'Кухни' },
     { id: 'wardrobe', label: 'Шкафы-купе' },
     { id: 'custom', label: 'Шкафы по вашим размерам' },
-    { id: 'table', label: 'Столы' },
+    { id: 'hallway', label: 'Прихожие' },
   ];
 
   const projects = [
@@ -28,13 +28,13 @@ const Portfolio = () => {
     {
       id: 2,
       images: [
-        'https://cdn.poehali.dev/files/2026-01-11 20.31.42.jpg',
-        'https://cdn.poehali.dev/files/2026-01-11 20.31.47.jpg',
-        'https://cdn.poehali.dev/files/2026-01-11 20.31.53.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.20.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.13.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.33.26.jpg',
       ],
-      title: 'Декоративный журнальный стол',
-      category: 'table',
-      description: 'Мраморный стол с золотыми прожилками — премиум исполнение',
+      title: 'Прихожая на заказ',
+      category: 'hallway',
+      description: 'Современная система хранения с зеркалами и функциональными модулями',
     },
     {
       id: 3,
@@ -59,10 +59,10 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      image: 'https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/d4b4787b-10b9-4481-8d4f-0e993fe21577.jpg',
-      title: 'Обеденный стол',
-      category: 'table',
-      description: 'Массив дуба с эпоксидной заливкой',
+      image: 'https://cdn.poehali.dev/files/2026-01-12 13.33.26.jpg',
+      title: 'Компактная прихожая',
+      category: 'hallway',
+      description: 'Угловой шкаф с зеркальными дверцами и вместительными отделениями',
     },
     {
       id: 6,
