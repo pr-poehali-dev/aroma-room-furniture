@@ -14,7 +14,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/5e941814-d497-4b03-8723-2074e00be134.jpg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/files/2026-01-12 13.50.34.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
