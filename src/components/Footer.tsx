@@ -76,20 +76,20 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Icon name="Phone" size={16} className="text-primary" />
-                <a href="tel:+79991234567" className="text-white/80 hover:text-white transition-colors">
-                  +7 (999) 123-45-67
+                <a href="tel:+79281336969" className="text-white/80 hover:text-white transition-colors">
+                  +7 (928) 133-69-69
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} className="text-primary" />
-                <a href="mailto:info@aromaroom.ru" className="text-white/80 hover:text-white transition-colors">
-                  info@aromaroom.ru
+                <a href="mailto:zakazmebel61@yandex.ru" className="text-white/80 hover:text-white transition-colors">
+                  zakazmebel61@yandex.ru
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Icon name="MapPin" size={16} className="text-primary flex-shrink-0 mt-1" />
                 <span className="text-white/80">
-                  г. Москва, ул. Мебельная, д. 15
+                  г. Ростов-на-Дону, пр. Космонавтов 2Е
                 </span>
               </li>
             </ul>
