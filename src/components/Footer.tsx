@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <img 
-              src="https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/e067d513-5460-49a3-bfc3-f8cc43443a8f.jpg" 
+              src="https://cdn.poehali.dev/files/2026-01-11 20.27.40.jpg" 
               alt="ARomaRoom Logo" 
               className="h-12 w-auto mb-4 brightness-0 invert"
             />
