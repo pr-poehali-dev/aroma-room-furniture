@@ -40,7 +40,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('hero')}>
             <img 
-              src="https://cdn.poehali.dev/files/2026-01-11 20.27.40.jpg" 
+              src="https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/e067d513-5460-49a3-bfc3-f8cc43443a8f.jpg" 
               alt="ARomaRoom Logo" 
               className="h-12 w-auto"
             />
