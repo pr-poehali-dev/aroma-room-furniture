@@ -28,13 +28,13 @@ const Portfolio = () => {
     {
       id: 2,
       images: [
-        'https://cdn.poehali.dev/files/2026-01-12 13.33.20.jpg',
-        'https://cdn.poehali.dev/files/2026-01-12 13.33.13.jpg',
-        'https://cdn.poehali.dev/files/2026-01-12 13.33.26.jpg',
+        'https://cdn.poehali.dev/files/2026-01-11 20.31.42.jpg',
+        'https://cdn.poehali.dev/files/2026-01-11 20.31.47.jpg',
+        'https://cdn.poehali.dev/files/2026-01-11 20.31.53.jpg',
       ],
-      title: 'Прихожая на заказ',
+      title: 'Декоративный журнальный стол',
       category: 'hallway',
-      description: 'Современная система хранения с зеркалами и функциональными модулями',
+      description: 'Мраморный стол с золотыми прожилками — премиум исполнение',
     },
     {
       id: 3,
