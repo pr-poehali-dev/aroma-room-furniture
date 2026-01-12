@@ -10,6 +10,7 @@ const Portfolio = () => {
     { id: 'all', label: 'Все проекты' },
     { id: 'kitchen', label: 'Кухни' },
     { id: 'wardrobe', label: 'Шкафы-купе' },
+    { id: 'custom', label: 'Шкафы по вашим размерам' },
     { id: 'table', label: 'Столы' },
   ];
 
@@ -47,10 +48,14 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image: 'https://cdn.poehali.dev/files/2026-01-12 13.08.34.jpg',
-      title: 'Классический шкаф-купе',
-      category: 'wardrobe',
-      description: 'Изысканная классика в светлых тонах с зеркалами и удобными полками',
+      images: [
+        'https://cdn.poehali.dev/files/2026-01-12 13.10.46.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.10.36.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.10.42.jpg',
+      ],
+      title: 'Шкафы по вашим размерам',
+      category: 'custom',
+      description: 'Индивидуальная система хранения с фасадами и зеркальными вставками под ваш интерьер',
     },
     {
       id: 5,
