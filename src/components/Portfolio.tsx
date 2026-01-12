@@ -12,6 +12,7 @@ const Portfolio = () => {
     { id: 'wardrobe', label: 'Шкафы-купе' },
     { id: 'custom', label: 'Шкафы по вашим размерам' },
     { id: 'hallway', label: 'Прихожие' },
+    { id: 'bathroom', label: 'Мебель для ванной' },
   ];
 
   const projects = [
@@ -70,10 +71,13 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      image: 'https://cdn.poehali.dev/projects/ac469ecd-c0a2-4727-bdda-013bac04c4c4/files/5e941814-d497-4b03-8723-2074e00be134.jpg',
-      title: 'Кухня-студия',
-      category: 'kitchen',
-      description: 'Современный дизайн с островом и барной стойкой',
+      images: [
+        'https://cdn.poehali.dev/files/2026-01-12 13.42.40.jpg',
+        'https://cdn.poehali.dev/files/2026-01-12 13.42.44.jpg',
+      ],
+      title: 'Мебель для ванной комнаты',
+      category: 'bathroom',
+      description: 'Влагостойкая мебель с фасадами под дерево и встроенными нишами',
     },
   ];
 
